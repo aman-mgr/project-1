@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+        body {
+            background-color: #c3c3c3;
+        }
+        .card {
+            width: 300px;
+        }
+        .head {
+            background-color: blue;
+            position: relative;
+            height: 200px;
+        }
+
+        .card .head .profile-img {
+            position: absolute;
+            bottom: -50px;
+            left: 95px;
+        }
+        
+        .card .head .profile-img img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+
+        .body {
+            background-color: white;
+            padding-top: 60px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .position
+        {
+            color: purple;
+            margin: 10px 0px;
+            font-family: "Noto Sans JP", sans-serif;
+        }
+        .view-profile {
+            color: white;
+            background-color: blue;
+            width: fit-content;
+            margin: auto;
+            padding: 8px;
+            border-radius: 15px;
+        }
+
+        /* margin auto */
+        /* .margin {
+            background-color: green;
+            width: 200px;
+            margin: auto;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="head">
+            <div class="profile-img">
+                <img src="./assets/images/download.jpg" alt="">
+            </div>
+        </div>
+        <div class="body">
+            <div>Sagar Gurung</div>
+            <div class="position">Front-End Developer</div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, atque?</p>
+            <div class="view-profile">View Profile</div>
+        </div>
+    </div>
+
+    <!-- margin auto -->
+
+    <!-- <div class="margin">
+        hello world
+    </div> -->
+
+</body>
+
+</html>

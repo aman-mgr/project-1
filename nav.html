@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: black;
+            color: #fff;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            /* padding: 10px; */
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            gap: 10px;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            padding: 10px;
+            transition: all .5s ease-in-out;
+        }
+
+        nav ul li:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        nav ul li:nth-child(1) 
+        {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+        <div>
+            <div class="get-started">Get Started</div>
+        </div>
+    </nav>
+    
+</body>
+</html>

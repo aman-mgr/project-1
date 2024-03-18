@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .left {
+            background-color: red;
+            width: 100%;
+        }
+        .right {
+            background-color: antiquewhite;
+            width: 100%;
+        }
+        
+        /* 
+        min-width = mobile to desktop approach
+        max-width = desktop to mobiel approach
+        */
+        @media (min-width: 600px) {
+            
+            .left {
+                width: 50%;
+                float: left;
+            }
+            .right {
+                width: 50%;
+                float: left;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="left">
+        left
+    </div>
+    <div class="right">
+        right
+    </div>
+
+</body>
+</html>
